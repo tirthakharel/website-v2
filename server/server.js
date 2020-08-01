@@ -7,10 +7,10 @@ const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
-app.use(sslRedirect());
-
 app.prepare().then(() => {
   const server = express();
+
+  server.use(sslRedirect());
 
   server.get('/resume', (req, res) => {
     res.download('./public/Tkharel-Resume_Recruiting_2019.pdf');
