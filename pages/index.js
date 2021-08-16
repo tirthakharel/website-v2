@@ -420,7 +420,7 @@ export default class Home extends React.Component {
                       <Card
                         date="Jan 2020 - Dec 2020"
                         cardTitle="University of Pennsylvania"
-                        cardSubtitle="[MCIT 593] Intro to Comp. Systems TA"
+                        cardSubtitle="MCIT 593 (Intro to Computer Systems) TA"
                         img="penn.png"
                         width="100%"
                         id="penn-card-2"
@@ -428,7 +428,7 @@ export default class Home extends React.Component {
                     </li>
                     <li>
                       <Card
-                        date="October 2018 - May 2019"
+                        date="Oct 2018 - May 2019"
                         cardTitle="Glome"
                         cardSubtitle="Mobile Software Engineer"
                         img="glome.png"
