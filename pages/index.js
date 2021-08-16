@@ -16,7 +16,7 @@ export default class Home extends React.Component {
       words: [
         'web development',
         'design',
-        'networks',
+        'distributed systems',
         'teaching',
         'open source',
       ],
@@ -255,10 +255,11 @@ export default class Home extends React.Component {
                   <h2>about</h2>
                 </div>
                 <p>
-                  I am currently a junior (expected graduation May 2022)
-                  pursuing a B.S.E. in Computer Science with minors in Data
-                  Science and Statistics. I enjoy designing and creating
-                  meaningful products that provide a great experience to users.
+                  I am currently a senior (expected graduation May 2022)
+                  pursuing an M.S.E. in Computer Science along with a B.S.E. in
+                  Computer Science with a concentration in Data Science. I enjoy
+                  designing and creating meaningful products that provide a
+                  great experience to users.
                 </p>
                 <p>
                   {' '}
@@ -275,7 +276,7 @@ export default class Home extends React.Component {
                 <p>
                   {' '}
                   When I’m not working on something new, you can find me
-                  dancing, practicing guitar, or reading a book.
+                  teaching, practicing guitar, or reading a book.
                 </p>
               </div>
             </Fade>
@@ -374,46 +375,68 @@ export default class Home extends React.Component {
               <div className="experience-title">
                 <h2>experience</h2>
               </div>
-              <div className="experience-wrapper">
-                <div className="timeline-container timeline-left">
-                  <Card
-                    isDate={false}
-                    cardTitle="Amazon (AWS)"
-                    cardSubtitle="Software Development Engineering Intern"
-                    img="amazon_icon.png"
-                    id="aws-card"
-                  />
-                  <Card isDate={true} date="Jan '20 - Present" />
-                  <Card
-                    isDate={false}
-                    cardTitle="University of Pennsylvania"
-                    cardSubtitle="Research Assistant"
-                    img="penn.png"
-                    width="100%"
-                    id="penn-card"
-                  />
-                  <Card isDate={true} date="October '18 - May '19" />
-                </div>
-                <div className="timeline-middle"></div>
-                <div className="timeline-container timeline-right">
-                  <Card isDate={true} date="Jun '20 - Aug '20" />
-                  <Card
-                    isDate={false}
-                    cardTitle="University of Pennsylvania"
-                    cardSubtitle="[MCIT 593] Intro to Comp. Systems TA"
-                    img="penn.png"
-                    width="100%"
-                    id="penn-card-2"
-                  />
-                  <Card isDate={true} date="May '19 - Present" />
-                  <Card
-                    isDate={false}
-                    cardTitle="Glome"
-                    cardSubtitle="Mobile Software Engineer"
-                    img="glome.png"
-                    width="100%"
-                    id="glome-card"
-                  />
+              <div class="container-x">
+                <div class="timeline">
+                  <ul>
+                    <li>
+                      <Card
+                        date="Jun 2021 - Sep 2021"
+                        cardTitle="Amazon (AWS)"
+                        cardSubtitle="Software Development Engineering Intern"
+                        img="amazon_icon.png"
+                        id="aws-card"
+                      />
+                    </li>
+                    <li>
+                      <Card
+                        date="May 2021 - Present"
+                        cardTitle="University of Pennsylvania"
+                        cardSubtitle="CIS 553 (Networked Systems) Course Development Assistant"
+                        img="penn.png"
+                        width="100%"
+                        id="penn-card"
+                      />
+                    </li>
+                    <li>
+                      <Card
+                        date="Aug 2020 - Present"
+                        cardTitle="University of Pennsylvania"
+                        cardSubtitle="CIS 557 (Web Programming) Head TA"
+                        img="penn.png"
+                        width="100%"
+                        id="penn-card"
+                      />
+                    </li>
+                    <li>
+                      <Card
+                        date="Jun 2020 - Aug 2020"
+                        cardTitle="Amazon (AWS)"
+                        cardSubtitle="Software Development Engineering Intern"
+                        img="amazon_icon.png"
+                        id="aws-card"
+                      />
+                    </li>
+                    <li>
+                      <Card
+                        date="Jan 2020 - Dec 2020"
+                        cardTitle="University of Pennsylvania"
+                        cardSubtitle="[MCIT 593] Intro to Comp. Systems TA"
+                        img="penn.png"
+                        width="100%"
+                        id="penn-card-2"
+                      />
+                    </li>
+                    <li>
+                      <Card
+                        date="October 2018 - May 2019"
+                        cardTitle="Glome"
+                        cardSubtitle="Mobile Software Engineer"
+                        img="glome.png"
+                        width="100%"
+                        id="glome-card"
+                      />
+                    </li>
+                  </ul>
                 </div>
               </div>
             </Fade>
@@ -644,7 +667,7 @@ export default class Home extends React.Component {
                     </a>
                     . You can see the first iteration of my website{' '}
                     <a
-                      href="https://github.com/tirthakharel/website-v1"
+                      href="https://github.com/tirthakharel/website-v2"
                       target="_blank"
                     >
                       here
@@ -673,7 +696,10 @@ export default class Home extends React.Component {
                   </p>
                   <p>
                     Check it out{' '}
-                    <a href="http://literaturegame.com/" target="_blank">
+                    <a
+                      href="https://github.com/tirthakharel/SpadesGame"
+                      target="_blank"
+                    >
                       here
                     </a>
                     !

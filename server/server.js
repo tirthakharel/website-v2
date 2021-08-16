@@ -13,7 +13,7 @@ app.prepare().then(() => {
   server.use(sslRedirect());
 
   server.get('/resume', (req, res) => {
-    res.download('./public/TirthaKharel-Resume-Fall-2020.pdf');
+    res.download('./public/TirthaKharelWebsiteResume2022.pdf');
   });
 
   server.all('*', (req, res) => {
